@@ -61,6 +61,8 @@ Games are a great way to promote movement. Friendly competition against a clock,
 
 Our games do all of this.
 
+![](https://github.com/funwithbots/microgravity-game-design/blob/main/assets/gravity-spin.gif)
+
 ### Design Goals
 
  - Minimize storage and mass with compact component designs.
