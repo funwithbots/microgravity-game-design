@@ -52,7 +52,8 @@ module stick_man(
 }
 
 color("black")
-cylinder(h = 80, r = 2, center = true);
+translate([0,0,0])
+cylinder(h = 150, r = 2, center = true);
 
 rotate([0,0,360*$t])
 {
@@ -101,11 +102,15 @@ rotate([0,0,360*$t])
 
 
 translate([120,0,10])
-color($t > .3 && $t < .6 ? "blue" : "white")
+color($t > .2 && $t < .4 ? "blue" : "white")
 sphere(5);
 
 translate([20,80,10])
-color($t > .3 && $t < .6 ? "red" : "white")
+color($t > .6 && $t < .8 ? "red" : "white")
+sphere(5);
+
+translate([-120,0,10])
+color($t > .0 && $t < .1 ? "green" : "white")
 sphere(5);
 
 //$vpt = [10*sin($t*360),0,0];
