@@ -15,6 +15,7 @@ Our team concept for the Microgravity Games challenge from NASA Space Apps 2024
         - [Core Components](#core-components)
         - [Future Expansion Components](#future-expansion-components)
     - [Game Ideas](#game-ideas)
+        - [Gravity Spin](#gravity-spin)
         - [The Walls are Lava](#the-walls-are-lava)
         - [3D mini golf](#3d-mini-golf)
         - [Plug the Leak](#plug-the-leak)
@@ -99,6 +100,16 @@ Playing in multiplayer mode, games are either turn based or played in real time.
 For single player mode, players try to beat their best time to the single safety
 zone. Leaderboards can track game activity to allow competition.
 
+#### Gravity Spin
+
+Players must collect was many targets as possible before the clock runs out. Watch out for the penalty targets!
+
+Players are attached to the rotating pole with short tethers. As the pole rotates with the players at a fixed rate of speed, players must try to accumulate as many trophies and treasures as possible. At some predetermined time, the pole will stop rotating and the tethers will begin to wrap around the pole. As the tethers wrap, it will become more difficult to acquire targets. Once the targets are completely out of the players' range, the game ends.
+
+Beware of penalty targets. If you make contact with a penalty, you may lose trophies, treasures, or both!
+
+Highest score wins.
+
 #### The Walls are Lava
 
 This game is a 3D version that mimics the game play of musical chairs with the 
@@ -163,3 +174,4 @@ The game has a timer to limit game play.
 If penalty shots or tie-breakers are required, One panel is designated as the ball position for those shots.
 
 Highest score wins.
+
